@@ -1,0 +1,129 @@
+.App{
+    display: flex;
+}
+h1, h2, h3, h4, h5{
+    line-height: 0%;
+}
+.sidebar{
+    width: 5%;
+    background-color: #aacbf5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    height:95vh; 
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.name{
+    background-color:darkorchid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content{
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    padding: 30px 30px ;
+}
+
+.greet{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.last-scan{
+    color:darkgrey
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:0 40px; 
+    width: 90%;
+}
+
+.card{
+    width: 250px;
+    height:100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card h3{
+    line-height: 0%;
+}
+
+.box {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .name-heading {
+    width: 40%;
+  }
+  
+  td {
+    padding: 8px;
+  }
+
+  .color-blue{
+    color: #aacbf5;
+  }
+
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .buttons button{
+    background-color: none;
+    background:none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 10px;
+    cursor: pointer;
+  }
